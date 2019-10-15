@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\历史战局详情.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="注册.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/all.js">	
+	</script>
+	 <script src="./历史战局表.js">
+		
+	</script>
+</head>
+
+<body>
+   
+	 <table id="rank-table1" border="3"  width="600"  align="left"  cellpadding="5" cellspacing="1" style="margin-top:10px;margin-left:10px;" >
+		<caption><h3>正在查看</h3></caption>
+		<tr align="center" height="60" >
+			<th>战局ID</th>
+			<th>玩家ID</th>
+			<th>玩家名</th>	
+			<th>分数变化</th>
+			<th>出牌情况</th>
+			<th>结算时间</th>
+		</tr>
+	</table>
+
+    <div style="margin: 90px 30rem;">
+	
+    <center>
+	<table id="rank-table" border="3"  width="600"  align="center" cellpadding="5" cellspacing="1">
+		<caption><h3>最近游戏</h3></caption>
+		<tr align="center"  height="60" >
+			<th>战局ID</th>
+			<th>出牌情况</th>
+			<th>分数变化</th>
+			<th>结算时间</th>
+		</tr>
+    </table>
+
+</center>
+</div>
+    <div class="container">
+        <div class="panel">
+            <div class="content history">
+                <div class="switch">
+                    <span id='signup'>输入你想看的历史战局</span>
+                </div>
+                <form  action="" role="form" method="GET" id='history_form' >
+    
+                    <div class="input" required id="name"  placeholder='战局id'><input name="username" id="username-input" type="text"></div>
+					 <input type="button" class="btn"  id="login-btn" onclick="javascrtpt:window.location.href='游戏大厅.html'" value="返回大厅">
+					
+                    
+                    <!-- <button id="login-btn" onclick="register()">LOGIN</button> <a href="游戏大厅.html"><span>返回大厅</span></a>-->
+                    <input type="button" class="btn"  id="login-btn" onclick="lookhistory()" value="查看">
+                   
+                </form>
+                <!-- <a href="游戏大厅.html"><button>LOGIN</button><a></a> -->
+                
+            </div>
+        </div>
+    </div>
+       
+
+</body>
+</html>

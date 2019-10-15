@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height:   130vh;
+    font-family: "montserrat";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(125deg,#eef0f1,#a68dd4,#9bc7cf,#c1b8d6,#ecb9fa);
+    background-size: 400%;
+    animation: bganimation 15s infinite;
+}
+  @keyframes bganimation {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+  
+
+.container{
+    position: -ms-page;
+    width: 40rem;
+    height: 0;
+}
+
+
+.switch span{
+    color:#ccc;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.switch span.active{
+    color:rgb(19, 2, 32);
+}
+
+.panel{
+	width: 30%;
+	margin: 3rem 0 0;
+    position: absolute;
+    right:25rem;
+	top:0;  
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    width: 12rem;
+    margin: 3rem 0 0;
+}
+
+form .input{
+    position: relative;
+    opacity: 1;
+	height: 2rem;
+    width: 100%;
+    margin: 2rem 0;
+    transition: .4s;
+}
+
+.input input{
+    outline: none;
+    width: 100%;
+    border: none;
+    background: 0%;
+    border-bottom: .1rem solid rgb(56, 7, 88);
+}
+
+.input::after{
+    content:attr(placeholder);
+    position: absolute;
+    left: 0;
+    top: -10%;
+    font-size: 1.2rem;
+    color: rgb(22, 12, 82);
+    transition: .3s;
+}
+
+.input.focus::after{
+    top:-50%;
+    font-size: .9rem;
+}
+
+
+form span{
+    display: block;
+    color:rgb(79, 126, 189);
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+button{
+    border:none;
+    outline: none;
+    margin: 2.5rem 0 0;
+    width: 100%;
+    height: 3rem;
+    border-radius: 3rem;
+    background: linear-gradient(90deg,rgb(40, 114, 197),rgb(211, 187, 214) );
+    box-shadow: 0 0 8px rgb(181, 154, 254);
+    cursor: pointer;
+    color:white;
+}
+.btn{
+    border:none;
+    outline: none;
+    margin: 2.5rem 0 0;
+    width: 100%;
+    height: 3rem;
+    border-radius: 3rem;
+    background: linear-gradient(90deg,rgb(40, 114, 197),rgb(211, 187, 214) );
+    box-shadow: 0 0 8px rgb(181, 154, 254);
+    cursor: pointer;
+    color:white;
+}
