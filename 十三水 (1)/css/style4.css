@@ -7,12 +7,10 @@ body{
     animation: bganimation 15s infinite;
   }
   
-  .text{
+  .im{
     color: white;
     text-transform: uppercase;
-    text-align: center;
-    /*margin: 300px 0;*/
-    font-size: 22px;
+    margin: 0 30rem  0;
   }
   .text2{
     margin: 0 5rem  0;

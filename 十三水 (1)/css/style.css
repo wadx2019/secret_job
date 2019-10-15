@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(125deg,#eef0f1,#a17fe0,#78dcee,#976df8,#d9d2db);
+    background: linear-gradient(125deg,#eef5af,#e5e757,#78dcee,#f8ef6d,#d9d2db);
     background-size: 400%;
     animation: bganimation 15s infinite;
 }
@@ -53,7 +53,9 @@ body{
     display: flex;
     justify-content: center;
 }
-
+.bai{
+    text-decoration: none;
+}
 form{
     width: 12rem;
     margin: 3rem 0 0;
@@ -91,12 +93,6 @@ form .input{
     font-size: .9rem;
 }
 
-.login .input#email,
-.login .input#repeat{
-    margin: 0;
-    height: 0;
-    opacity: 0;
-}
 
 form span{
     display: block;

@@ -145,6 +145,9 @@
   .btn5{
     background-image: linear-gradient(to left,rgb(37, 172, 154),rgb(124, 152, 184),rgb(22, 95, 163));
   }
+  .btn6{
+    background-image: linear-gradient(to left,rgb(16, 220, 235),rgb(184, 124, 174),rgb(209, 227, 235));
+  }
   .btn:hover{
     background-position: right;
   }

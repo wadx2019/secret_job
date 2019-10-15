@@ -9,10 +9,28 @@
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
     <script src="注册.js"></script>
 	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="./js/all.js"></script>
+    <script src="./js/all.js">	
+	</script>
+	 <script src="./历史战局表.js">
+		
+	</script>
 </head>
+
 <body>
-    
+    <div style="margin: 60px 30rem;">
+    <center>
+	<table id="rank-table" border="3"  width="600"  align="center" cellpadding="5" cellspacing="1">
+		<caption><h3>最近游戏</h3></caption>
+		<tr align="center"  height="60" >
+			<th>战局ID</th>
+			<th>出牌情况</th>
+			<th>分数变化</th>
+			<th>结算时间</th>
+		</tr>
+    </table>
+
+</center>
+</div>
     <div class="container">
         <div class="panel">
             <div class="content history">
@@ -23,7 +41,7 @@
     
                     <div class="input" required id="name"  placeholder='战局id'><input name="username" id="username-input" type="text"></div>
                     <!-- <button id="login-btn" onclick="register()">LOGIN</button> -->
-                    <input type="button" class="btn"  id="login-btn" onclick="lookhistory()" value="查看战局">
+                    <input type="button" class="btn"  id="login-btn" onclick="lookhistory()" value="查看">
                 </form>
                 <!-- <a href="游戏大厅.html"><button>LOGIN</button><a></a> -->
                 

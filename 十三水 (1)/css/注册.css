@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(125deg,#eef0f1,#bccf4d,#78e6ee,#dbe48a,#d79ee7);
+    background: linear-gradient(125deg,#e5f0aa,#7fd5e0,#bbabf1,#7947ec,#d9d2db);
     background-size: 400%;
     animation: bganimation 15s infinite;
 }
@@ -33,20 +33,15 @@ body{
     height: 0;
 }
 
-.span
-{
-    color:rgb(50, 21, 83);
-    font-size: 1.4rem;
-    cursor: pointer;
-}
+
 .switch span{
-    color:rgb(50, 21, 83);
+    color:rgb(80, 11, 97);
     font-size: 1.4rem;
     cursor: pointer;
 }
 
 .switch span.active{
-    color:rgb(51, 11, 33);
+    color:rgb(19, 2, 32);
 }
 
 .panel{
@@ -58,7 +53,9 @@ body{
     display: flex;
     justify-content: center;
 }
-
+.bai{
+    text-decoration: none;
+}
 form{
     width: 12rem;
     margin: 3rem 0 0;
@@ -78,7 +75,7 @@ form .input{
     width: 100%;
     border: none;
     background: 0%;
-    border-bottom: .1rem solid rgb(210, 37, 253);
+    border-bottom: .1rem solid rgb(56, 7, 88);
 }
 
 .input::after{
@@ -96,12 +93,6 @@ form .input{
     font-size: .9rem;
 }
 
-.login .input#email,
-.login .input#repeat{
-    margin: 0;
-    height: 0;
-    opacity: 0;
-}
 
 form span{
     display: block;
@@ -117,7 +108,7 @@ button{
     width: 100%;
     height: 3rem;
     border-radius: 3rem;
-    background: linear-gradient(90deg,rgb(40, 153, 197),rgb(211, 187, 214) );
+    background: linear-gradient(90deg,rgb(40, 114, 197),rgb(211, 187, 214) );
     box-shadow: 0 0 8px rgb(181, 154, 254);
     cursor: pointer;
     color:white;
@@ -129,7 +120,7 @@ button{
     width: 100%;
     height: 3rem;
     border-radius: 3rem;
-    background: linear-gradient(90deg,rgb(98, 10, 124),rgb(211, 187, 214) );
+    background: linear-gradient(90deg,rgb(40, 114, 197),rgb(211, 187, 214) );
     box-shadow: 0 0 8px rgb(181, 154, 254);
     cursor: pointer;
     color:white;

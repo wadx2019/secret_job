@@ -143,6 +143,7 @@
       left: 2%;
       top: 50%;
       text-align: center;
+      
     }
 
     .pp{
@@ -155,47 +156,59 @@
       text-transform: uppercase;
       text-transform: inherit;
       cursor: pointer;
-      background-color: ivory;
-
+      background-color: aliceblue;
     }
     .pai1{
       margin: 1px;
       left: 20px;
+      background-image: url("img\方块.png");
     }
     .pai2{
     margin: 1px;
+    background-image: url("img\方块.png");
     }
     .pai3{
       margin: 1px;
+      background-image: url("img\方块.png");
       }
     .pai4{
         margin: 1px;
+        background-image: url("img\方块.png");
         }
 
     .pai5{
           margin: 1px;
+          background-image: url("img\方块.png");
           }
     .pai6{
             margin: 1px;
+            background-image: url("img\方块.png");
             }
     .pai7{
           margin: 1px;
+          background-image: url("img\方块.png");
           }
     .pai8{
             margin: 1px;
+            background-image: url("img\方块.png");
           }
       .pai9{
               margin: 1px;
+              background-image: url("img\方块.png");
             }
       .pai10{
               margin: 1px;
+              background-image: url("img\方块.png");
             }
       .pai11{
               margin: 1px;
+              background-image: url("img\方块.png");
             }
         .pai12{
               margin: 1px;
+              background-image: url("img\方块.png");
               }
         .pai13{
               margin: 1px;
+              background-image: url("img\方块.png");
             }

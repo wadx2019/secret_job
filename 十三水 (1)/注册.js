@@ -27,7 +27,7 @@ $(function(){
     })
 
     $('.input input').on('blur',function(){
-        if($(this).val() === '')
+        if($(this).val() == '')
             $(this).parent().removeClass('focus');
     })
 
