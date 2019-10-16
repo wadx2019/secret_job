@@ -14,3 +14,6 @@ Chrome浏览器
 
 ## 使用方法
 双击十三水文件夹下的"点入.html"即可进入游戏
+
+## 持续集成
+[![Build Status](https://travis-ci.org/wadx2019/secret_job.svg?branch=master)](https://travis-ci.org/wadx2019/secret_job)
