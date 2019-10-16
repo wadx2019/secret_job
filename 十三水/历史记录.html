@@ -12,35 +12,37 @@
     <script src="./js/all.js"></script>
 </head>
 <body>
-    
+     <table id="rank-table" border="3"  width="500"  align="center" cellpadding="5" cellspacing="1">
+        <caption><h3>战局列表</h3></caption>
+        <tr align="center"  height="50" >
+            <th>战局ID</th>
+            <th>玩家出牌情况</th>
+            <th>分数</th>
+			 <th>结算时间</th>
+        </tr>
+    </table>    
     <div class="container">
         <div class="panel">
             <div class="content login">
                 <div class="switch">
-                    </span><span id='signup'>历史详情列表</span>
+                    </span><span id='signup'>个人历史战局列表</span>
                 </div>
                 <form  action="" role="form" method="POST" id='hlist_form' >
     
-                    <div class="input" required id="player_id"  placeholder='player_id'><input name="player_id" id="username-input" type="text"></div>
-                    <div class="input" required id="limit"  placeholder='limit'><input name="limit" id="password-input" type="text"></div>
-                    <div class="input" required id="page"  placeholder='page'><input name="page" id="repeat-input" type="text"></div>
+                    <div class="input" required id="player_idi"  placeholder='player_id'><input name="player_idx" id="player_id" type="text"></div>
+                    <div class="input" required id="limiti"  placeholder='limit'><input name="limitx" id="limit" type="text"></div>
+                    <div class="input" required id="pagei"  placeholder='page'><input name="pagex" id="page" type="text"></div>
                     <!-- <button id="login-btn" onclick="register()">LOGIN</button> -->
                     <input type="button" class="btn"  id="login-btn" onclick="lookh()" value="生成列表">
                     <!-- <input type="button" class="btn"  id="login-btn"  value="返回大厅"> -->
                 </form>
                      <a href="游戏大厅.html"><button>返回大厅</button><a></a> 
+					 <a href="历史战局详情.html"><button>查看单局详情</button><a></a> 
                 
             </div>
         </div>
     </div>    
-    <table id="rank-table" border="3"  width="500"  align="center" cellpadding="5" cellspacing="1">
-        <caption><h3>战局列表</h3></caption>
-        <tr align="center"  height="50" >
-            <th>玩家ID</th>
-            <th>玩家出牌情况</th>
-            <th>分数</th>
-        </tr>
-    </table>    
+   
 
 </body>
 </html>

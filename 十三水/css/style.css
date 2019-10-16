@@ -35,13 +35,13 @@ body{
 
 
 .switch span{
-    color:#ccc;
+    color:rgb(50, 21, 83);
     font-size: 1.4rem;
     cursor: pointer;
 }
 
 .switch span.active{
-    color:rgb(19, 2, 32);
+    color:rgb(51, 11, 33);
 }
 
 .panel{

@@ -17,13 +17,16 @@ $(function(){
             }
         });
     function renderPage() {
+		var i=1;
         data.forEach((item) => {
             $("#rank-table").append(
             "<tr align='center'>" +
+				"<td>" + String(i) + "</td> " + 
                 "<td>" + item["player_id"] + "</td> " + 
                 "<td>" + item["name"] + "</td> " +
                 "<td>" + item["score"] + "</td> " +
             "</tr>")
+			i++;
         })
     } 
 })
